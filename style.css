@@ -1,7 +1,39 @@
-
-h1{
+#logo{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 48;
+    text-align: left;
+    font-size: 40;
+    width: fit-content;
+    left: 30px;
+    position: relative;
+    color: rgb(37, 37, 37);
+}
+
+#headerbar{
+    display: inline-block;
     border-bottom: 2px solid;
+    width: 100vw;
+    background-color: rgb(0, 153, 255);
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+#logobox{
+    display: inline-block;
+    background-color: white;
+    padding: 2px 2px;
+    margin-left: -6px;
+}
+
+.widewhite{
+    width: 100%;
+    position: relative;
+    height: 50vw;
+}
+
+.wideblue{
+    width: 100%;
+    position: relative;
+    height: 50vw;
+    background-color: rgb(0, 153, 255);
 }
